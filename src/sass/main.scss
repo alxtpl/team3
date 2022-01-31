@@ -1,0 +1,25 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import '../../node_modules/nice-select2/dist/css/nice-select2.css';
+
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/animation';
+
+@import './base/reset';
+@import './base/common';
+
+@import './components/container';
+
+@import './layouts/header';
+@import './layouts/home';
+@import './layouts/footer';
+
+@import './layouts/about';
+@import './layouts/modal';
+@import './layouts/pagination';
+@import './layouts/back-to-top.scss';
