@@ -13,4 +13,4 @@ var t,e=arguments[3];!function(e,i){"function"==typeof t&&t.amd?t([],function(){
 },{"./render-card":"KpEY","./render-page":"fO4B","notiflix":"hWOm"}],"QluB":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=t(require("./fetchAuthor"));function t(e){return e&&e.__esModule?e:{default:e}}const r={modalEl:document.querySelector(".event-card"),modalform:document.querySelector(".backdrop")};function o(t){if("BUTTON"!==t.target.tagName)return!1;{r.modalform.classList.add("visually-hidden");const o=t.target.textContent.slice(22,t.target.textContent.length);(0,e.default)(o)}}r.modalEl.addEventListener("click",o);var a=o;exports.default=a;
 },{"./fetchAuthor":"VeDF"}]},{},["QluB"], null)
-//# sourceMappingURL=/goit-js-project-team3/clickAuthor.f05c9d11.js.map
+//# sourceMappingURL=/team3/clickAuthor.f05c9d11.js.map

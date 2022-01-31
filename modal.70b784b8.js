@@ -67,4 +67,4 @@ module.exports=require("./lib/axios");
 },{"./render-modal":"YANt","axios":"dZBD"}],"RSqK":[function(require,module,exports) {
 "use strict";var e=t(require("./fetchEvent"));function t(e){return e&&e.__esModule?e:{default:e}}const d={closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]")};function a(){d.modal.classList.add("visually-hidden")}function c(e){e.currentTarget===e.target&&a()}d.closeModalBtn.addEventListener("click",a),d.modal.addEventListener("click",c);
 },{"./fetchEvent":"ZM6r"}]},{},["RSqK"], null)
-//# sourceMappingURL=/goit-js-project-team3/modal.70b784b8.js.map
+//# sourceMappingURL=/team3/modal.70b784b8.js.map

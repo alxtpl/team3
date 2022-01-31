@@ -71,4 +71,4 @@ var t,e=arguments[3];!function(e,i){"function"==typeof t&&t.amd?t([],function(){
 },{}],"b4tA":[function(require,module,exports) {
 "use strict";var e=r(require("./fetchEvent")),t=r(require("notiflix"));function r(e){return e&&e.__esModule?e:{default:e}}const i=document.querySelector(".search__list"),u=document.querySelector(".backdrop");function n(r){if(r.preventDefault(),"UL"===r.target.tagName)return!1;u.classList.remove("visually-hidden"),setTimeout(()=>{t.default.Notify.info(" 👈 Here You Can See More Information About This EVENT ")},300),(0,e.default)(r.target.id)}i.addEventListener("click",n);
 },{"./fetchEvent":"ZM6r","notiflix":"hWOm"}]},{},["b4tA"], null)
-//# sourceMappingURL=/goit-js-project-team3/clickCard.8465e97b.js.map
+//# sourceMappingURL=/team3/clickCard.8465e97b.js.map

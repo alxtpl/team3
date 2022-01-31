@@ -11,4 +11,4 @@ var t,e=arguments[3];!function(e,i){"function"==typeof t&&t.amd?t([],function(){
 },{"./fetchImages":"FV1x"}],"RwpZ":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=a(require("./render-card")),t=a(require("./render-page")),o=a(require("notiflix"));function a(e){return e&&e.__esModule?e:{default:e}}async function s(e,t){try{const a=await fetch(`https://app.ticketmaster.com/discovery/v2/events.json?countryCode=${e}&source=Ticketmaster&apikey=841T1YMOPnVKBAAycVhND0Lj4GpnyoMw`);r(await a.json(),t)}catch(o){o.message}}function r(a,s){(0,e.default)(a._embedded.events),(0,t.default)(Math.min(50,a.page.totalPages),a._links.self.href),setTimeout(()=>{o.default.Notify.success(`HELLO 👋, You see EVENTS only ${s}`)},1800),setTimeout(()=>{o.default.Notify.info("👈 BUT, You Can write or Say KEYWORD, and see events only you want")},5e3)}var n=s;exports.default=n;
 },{"./render-card":"KpEY","./render-page":"fO4B","notiflix":"hWOm"}]},{},["RwpZ"], null)
-//# sourceMappingURL=/goit-js-project-team3/firstFetch.f3a65eb3.js.map
+//# sourceMappingURL=/team3/firstFetch.f3a65eb3.js.map

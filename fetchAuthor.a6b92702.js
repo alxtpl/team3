@@ -11,4 +11,4 @@ var t,e=arguments[3];!function(e,i){"function"==typeof t&&t.amd?t([],function(){
 },{"./fetchImages":"FV1x"}],"VeDF":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=a(require("./render-card")),t=a(require("./render-page")),r=a(require("notiflix"));function a(e){return e&&e.__esModule?e:{default:e}}async function s(a){try{const o=await fetch(`https://app.ticketmaster.com/discovery/v2/events.json?keyword=${a}&source=Ticketmaster&apikey=841T1YMOPnVKBAAycVhND0Lj4GpnyoMw`),i=await o.json();(0,e.default)(i._embedded.events),(0,t.default)(Math.min(50,i.page.totalPages),i._links.self.href),setTimeout(()=>{r.default.Notify.success(" 👏 More EVENTS for this AUTHOR!")},300)}catch(s){setTimeout(()=>{r.default.Notify.failure("Sorry, NOT Today ....  🥺")},300),s.message}}var o=s;exports.default=o;
 },{"./render-card":"KpEY","./render-page":"fO4B","notiflix":"hWOm"}]},{},["VeDF"], null)
-//# sourceMappingURL=/goit-js-project-team3/fetchAuthor.a6b92702.js.map
+//# sourceMappingURL=/team3/fetchAuthor.a6b92702.js.map

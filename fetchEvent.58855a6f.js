@@ -65,4 +65,4 @@ module.exports=require("./lib/axios");
 },{"./lib/axios":"nUiQ"}],"ZM6r":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=t(require("./render-modal"));function t(e){return e&&e.__esModule?e:{default:e}}const a=require("axios");function o(t){return a.get(`https://app.ticketmaster.com/discovery/v2/events/${t}.json?apikey=841T1YMOPnVKBAAycVhND0Lj4GpnyoMw`).then(t=>{void 0===t.data.info?(0,e.default)(t.data,"Coming soon   ╮(￣_￣)╭ "):(0,e.default)(t.data,t.data.info)}).catch(e=>e)}var r=o;exports.default=r;
 },{"./render-modal":"YANt","axios":"dZBD"}]},{},["ZM6r"], null)
-//# sourceMappingURL=/goit-js-project-team3/fetchEvent.58855a6f.js.map
+//# sourceMappingURL=/team3/fetchEvent.58855a6f.js.map

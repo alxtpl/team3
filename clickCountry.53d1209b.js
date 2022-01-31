@@ -13,4 +13,4 @@ var t,e=arguments[3];!function(e,i){"function"==typeof t&&t.amd?t([],function(){
 },{"./render-card":"KpEY","./render-page":"fO4B","notiflix":"hWOm"}],"SMcK":[function(require,module,exports) {
 "use strict";var e=t(require("./fetchCountry"));function t(e){return e&&e.__esModule?e:{default:e}}const r=document.querySelector(".nice-select");function u(t){if(t.preventDefault(),void 0===t.target.dataset.value)return!1;(0,e.default)(t.target.dataset.value)}r.addEventListener("click",u);
 },{"./fetchCountry":"INDD"}]},{},["SMcK"], null)
-//# sourceMappingURL=/goit-js-project-team3/clickCountry.53d1209b.js.map
+//# sourceMappingURL=/team3/clickCountry.53d1209b.js.map
