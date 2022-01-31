@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://andriivv.github.io/goit-js-project-team3/",
+  "homepage": "https://alxtpl.github.io/team3/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-project-team3/"
+    "build": "parcel build src/*.html --public-url /team3/"
   },
   "repository": {
     "type": "git",
